@@ -7,3 +7,30 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #C1B5AD;
 }
+
+#map {
+
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+#navbar-options {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  align-items: center;
+  padding-right: 3vw;
+}
+#hero {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+#map {
+  flex-grow: 3;
+}
+#right-column {
+  flex-grow: 1;
+}
